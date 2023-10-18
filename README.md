@@ -1,11 +1,5 @@
 # Portfólio 
-Portfólio desenvolvido em HTML e CSS.
-<li>
-  HTML 5
-</li>
-<li>
-  CSS 3
-</li>
+Portfólio desenvolvido com as ferramentas HTML5 e CSS 3
 
 ## Telas de Home e Sobre Mim
 
