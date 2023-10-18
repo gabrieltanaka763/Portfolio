@@ -2,6 +2,8 @@
 Portfólio desenvolvido em HTML e CSS.
 <li>
   HTML 5
+</li>
+<li>
   CSS 3
 </li>
 
