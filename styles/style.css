@@ -18,34 +18,37 @@
 }
 
 body {
-    background-color: var(--cor-primaria);
+    background-image: url(../assets/bg-space.png);
     color: var(--cor-secundaria);
     /* height: 100vh; */
     box-sizing: border-box;
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
-
+    padding: 1% 0% 0% 15%;
+    background-color:var(--cor-terciaria);
 }
 
 .cabecalho__menu {
     display: flex;
     gap: 80px;
+
 }
-.cabecalho__menu__link:hover{
+
+.cabecalho__menu__link:hover {
     background-color: #272727;
+    border-radius: 6px;
+    color: #f6f6f6;
 }
+
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
     font-weight: 600;
     font-size: 1.5rem;
-    color: var(--cor-terciaria);
-    text-decoration: none;
-
+    color: var(--cor-primaria);
+    text-decoration: solid;
+    text-align: center;
 }
-
-
 
 .apresentacao {
     padding: 5% 15%;
@@ -63,11 +66,22 @@ body {
     gap: 40px;
 }
 
+.icones img {
+    margin: 2px;
+    align-self: center;
+    height: 30px;
+    width: 40px;
+    background-color: whitesmoke; 
+    padding: 2.5px;
+    border-radius: 15%; 
+}
+
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem;
+    font-size: 3rem;
     font-family: var(--fonte-primaria);
 }
-.apresentacao__conteudo__titulo_sobre_mim{
+
+.apresentacao__conteudo__titulo_sobre_mim {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     color: var(--cor-terciaria);
@@ -95,6 +109,14 @@ body {
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.5rem;
+    flex-direction: row;
+}
+.Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
 
 .apresentacao__links__navegacao {
@@ -118,15 +140,7 @@ body {
     background-color: var(--cor-hover);
 }
 
-.rodape {
-    color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
-    text-align: center;
-    padding: 24px;
-    font-size: 1.5rem;
-    font-family: var(--fonte-secundaria);
-    font-weight: 400;
-}
+
 
 .minha_foto {
     display: flex;
@@ -136,9 +150,12 @@ body {
 
 }
 
+
+
 @media(max-width: 1200px) {
     .cabecalho {
-        padding: 6%;
+        padding: 3%;
+     
     }
 
     .cabecalho__menu {
@@ -149,7 +166,8 @@ body {
         flex-direction: column-reverse;
         padding: 5%;
     }
-    .apresentacao__conteudo{
+
+    .apresentacao__conteudo {
         width: auto;
     }
 }
