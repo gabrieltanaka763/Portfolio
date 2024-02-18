@@ -199,6 +199,7 @@ body.clear {
 .apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 5px solid var(--cor-terciaria);
     width: 50%;
     text-align: center;
