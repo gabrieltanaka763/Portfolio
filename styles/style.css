@@ -380,6 +380,11 @@ body.clear {
     @media(max-width: 800px) {
         .apresentacao {
             gap: 25px;
+                    
+        }
+        .apresentacao__conteudo {
+            text-align: center;
+            align-items: center;
         }
         .icones {
             display: inline;
@@ -401,14 +406,15 @@ body.clear {
         }
         .apresentacao__conteudo__texto__list {
             font-size: 0.8rem;
-            padding-left: 20px; 
+            text-align: center;
+            align-items: center;
         }
         .apresentacao__conteudo__texto {
-            font-size: 0.8rem;
-            padding-left: 20px;
-            word-wrap: break-word; 
-            overflow-x: auto;
-            
+            display: inline;
+            font-size: 0.75rem;
+            text-align: center;
+            padding: 0;
+
         }
         .apresentacao__conteudo__titulo_sobre_mim {
             text-align: center;
