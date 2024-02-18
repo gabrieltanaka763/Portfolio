@@ -316,6 +316,9 @@ body.clear {
         height: 50px;
         margin: 0;   
     }
+    .checkbox:checked + .label .ball {
+        transform: translateX(32px);
+    }
 }
 
 @media(max-width: 1000px) {
@@ -350,5 +353,8 @@ body.clear {
         font-size: 0.9;
         margin-inline: 100px;
         margin-top: 0;
+    }
+    .checkbox:checked + .label .ball {
+        transform: translateX(30px);
     }
 }
