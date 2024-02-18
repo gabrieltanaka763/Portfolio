@@ -9,44 +9,31 @@
     <title>Portfolio</title>
 </head>
 
-<body>
+<body class="dark-mode">
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">About me</a>
-            <a class="cabecalho__menu__link" href="about.html">Experience and Skills</a>
+            <a class="cabecalho__menu__link" href="about.html" style="color: gray;">Experience and Skills</a>
+
         </nav>
+
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Software Quality Assurance <strong
                     class="titulo-destaque">Intern</strong></h1>
-            <p class="apresentacao__conteudo__texto">My name is Gabriel Tanaka and I'm 20 years old. Course finalist
-                Systems Analysis and Development. I'm currently working with software development,
-                with specific focus on Web and Mobile software testing.
+            <p class="apresentacao__conteudo__texto">My name is Gabriel Tanaka and I am 20 years old. Finalist of the
+                Systems Analysis and Development course. I did 2 years of Computer Science. I currently work with
+                software development, with a specific focus on Web and Mobile software testing. I aim to become a test
+                analyst or developer
             </p>
-
-            <div class="icones">
-                <img alt="Gabriel-HTML"
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-                <img alt="Gabriel-CSS"
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-                <img alt="Gabriel-Js"
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-                <img alt="Gabriel-TS"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg">
-                <img alt="Gabriel-Cypress"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-line.svg">
-                <img alt="Gabriel-Selenium"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg">
-                <img alt="Gabriel-Git"
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-                <img alt="Gabriel-Github"
-                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
-                <img alt="Gabriel-Bitbucket"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bitbucket/bitbucket-original.svg">
-                <img alt="Gabriel-Jira"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg">
-            </div>
 
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulos">Access my social networks:</h2>
@@ -60,10 +47,11 @@
                     <img src="/assets/Logo linkedin.png">
                     Linkedin</a>
             </div>
-            
         </section>
-        <img class="minha_foto" src="/assets/index.jpeg" alt="Minha foto">
+        <img class="minha_foto" src="/assets/me.jpeg" alt="Minha foto">
     </main>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
