@@ -138,6 +138,7 @@ body.clear {
 .apresentacao__conteudo__titulo {
     font-size: 3rem;
     font-family: var(--fonte-primaria);
+    text-align: center;
 }
 
 .apresentacao__conteudo__titulo_sobre_mim {
