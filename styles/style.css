@@ -301,8 +301,6 @@ body.clear {
     }
 }
 @media(max-width: 1750px) {
-
-
     .icones {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -318,12 +316,9 @@ body.clear {
         height: 50px;
         margin: 0;   
     }
-
 }
 
 @media(max-width: 1200px) {
-
-
     .icones {
         display: inline;
         justify-items: center;
@@ -337,8 +332,6 @@ body.clear {
         width: 30px;
         height: 30px;
         margin: 0;   
-        
-
     }
     .apresentacao__conteudo__texto__list {
         display: flex;
@@ -346,9 +339,11 @@ body.clear {
         font-size: 0.8rem;
     }
     .apresentacao__conteudo__texto {
+        text-align: center;
         font-size: 0.8rem;
         font-family: var(--fonte-secundaria);
         margin-bottom: 0%;
+        
     }
     .apresentacao__conteudo__titulo_sobre_mim {
         text-align: center;
