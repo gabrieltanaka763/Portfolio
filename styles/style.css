@@ -331,7 +331,6 @@ body.clear {
     .apresentacao {
         gap: 25px;
     }
-    .apresen
     .icones {
         display: inline;
         justify-items: center;
@@ -377,5 +376,53 @@ body.clear {
         border-radius: 50px;
         width: 40%;
     }
-    
+}
+    @media(max-width: 800px) {
+        .apresentacao {
+            gap: 25px;
+        }
+        .icones {
+            display: inline;
+            justify-items: center;
+            align-items: center;
+            gap: 0px;
+            padding-left: 0;
+            gap: 2.5px;
+        }
+        .icones img {
+            width: 30px;
+            height: 30px;
+            margin: 0;   
+        }
+        .apresentacao__conteudo__container {
+            display: block;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .apresentacao__conteudo__texto__list {
+            font-size: 0.8rem;
+            padding-left: 20px; 
+        }
+        .apresentacao__conteudo__texto {
+            font-size: 0.8rem;
+            padding-left: 20px;
+            word-wrap: break-word; 
+            overflow-x: auto;
+            
+        }
+        .apresentacao__conteudo__titulo_sobre_mim {
+            text-align: center;
+            font-size: 0.9rem;
+            margin-inline: 100px;
+            margin-top: 0;
+        }
+        .checkbox:checked + .label .ball {
+            transform: translateX(25px);
+        }
+        .minha_foto {
+            display: flex;
+            border: 2px solid var(--cor-terciaria);
+            border-radius: 50px;
+            width: 40%;
+        }
 }
