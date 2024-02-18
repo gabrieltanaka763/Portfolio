@@ -163,8 +163,6 @@ body.clear {
     font-size: 1rem;
     font-family: var(--fonte-secundaria);
     margin-bottom: 0%;
-    
-
 }
 .apresentacao__conteudo__texto__list {
     font-size: 1rem;
@@ -289,13 +287,12 @@ body.clear {
     }
 
     .apresentacao__conteudo__texto {
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-family: var(--fonte-secundaria);
         text-align: center;
     }
     .apresentacao__conteudo__titulo_sobre_mim {
         text-align: center;
-        
         margin-inline: 100px;
         margin-top: 0;
     }
@@ -323,6 +320,40 @@ body.clear {
         margin: 0;   
     }
 
+}
 
-    
+@media(max-width: 1200px) {
+
+
+    .icones {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 1px;
+        padding-left: 0;
+        
+    }
+
+    .icones img {
+        width: 40px;
+        height: 40px;
+        margin: 0;   
+    }
+    .apresentacao__conteudo__texto__list {
+        display: flex;
+        gap: 10px;
+        font-size: 0.8rem;
+    }
+    .apresentacao__conteudo__texto {
+        font-size: 0.8rem;
+        font-family: var(--fonte-secundaria);
+        margin-bottom: 0%;
+    }
+    .apresentacao__conteudo__titulo_sobre_mim {
+        text-align: center;
+        font-size: 0.9;
+        margin-inline: 100px;
+        margin-top: 0;
+    }
 }
