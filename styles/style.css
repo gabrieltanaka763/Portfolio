@@ -419,8 +419,7 @@ body.clear {
         }
         .apresentacao__conteudo__titulo_sobre_mim {
             text-align: center;
-            font-size: 0.9rem;
-            margin-inline: 100px;
+            margin-inline: px;
             margin-top: 0;
         }
         .checkbox:checked + .label .ball {
