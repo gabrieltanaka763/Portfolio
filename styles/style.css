@@ -136,7 +136,6 @@ body.clear {
 }
 
 .apresentacao__conteudo__titulo {
-    color: var(--cor-terciaria);
     font-size: 3rem;
     font-family: var(--fonte-primaria);
     text-align: center;
@@ -420,7 +419,8 @@ body.clear {
         }
         .apresentacao__conteudo__titulo_sobre_mim {
             text-align: center;
-            margin-inline: px;
+            font-size: 0.9rem;
+            margin-inline: 100px;
             margin-top: 0;
         }
         .checkbox:checked + .label .ball {
