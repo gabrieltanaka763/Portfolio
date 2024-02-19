@@ -46,7 +46,7 @@ body.clear {
 .cabecalho__menu {
     display: flex;
     gap: 80px;
-    align-items: center; /* Alinha os itens verticalmente */
+    align-items: center; 
 }
 
 .cabecalho__menu__link {
@@ -55,6 +55,13 @@ body.clear {
     font-size: 1.5rem;
     color: var(--cor-primaria);
     text-decoration: none;
+    border-radius: 25px;
+}
+
+.current-page {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .checkbox {
