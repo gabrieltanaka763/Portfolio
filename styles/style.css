@@ -136,6 +136,7 @@ body.clear {
 }
 
 .apresentacao__conteudo__titulo {
+    color: var(--cor-terciaria);
     font-size: 3rem;
     font-family: var(--fonte-primaria);
     text-align: center;
